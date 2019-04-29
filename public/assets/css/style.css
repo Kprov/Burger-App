@@ -27,8 +27,13 @@ html, body {
 
 .bodyText{
     font-family:'Robot', sans-serif;
-    font-weight:lighter;
+    font-weight:bold;;
     color:white;
+}
+
+.otherTxt {
+    font-family: "Robito", sans-serif;
+    font-weight: bold;
 }
 
 .saveForm {
@@ -45,20 +50,18 @@ li {
     margin-bottom: 10px;
 }
 
-.saveBtn {
-    background-color:grey;
-    border: solid;
-    border-color: darkgrey;
+.btn-primary {
+    background-color: lightgrey;
     margin-left:10px;
-    width: 100px;
-    height: 37
+    
 }
 
 .burgers {
     background: solid;
-    background-color:darkgrey;
+    background-color:lightgrey;
     color:black;
+    font-weight: normal;
     border: solid;
     border-color:grey;
-    font-family: "Nunito", sans-serif;
+    font-family: "Robito", sans-serif;
 }
