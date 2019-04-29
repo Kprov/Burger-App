@@ -6,23 +6,26 @@
 <div class="bodyText">
 <h2 class="subText"><i>Pick a pre-made burger or create your own!</i></h2>
 
-<br><br>
-
-<h4 class="otherTxt">Add a Burger</h4>
 <div>
 <form class="create-form">
 
-  <div class="form-group row">
-    <input class="form-control saveForm col-md-6" type="text" id="bu" name="name" placeholder="Name...">
-    <button class="btn btn-md btn-primary saveBtn col-md-2" id="bu" type="submit">Save</button>
-  </div>
-
-  <br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br>
   
-  <div class="form-group">
+  <div class="form-group"><br>
     <label for="devoured">Have you eaten this burger before?</label><br>
-    <input type="radio" name="devoured" value="1" checked> Yes, I've eaten this one..<br>
+    
+    <div class="row">
+    <input type="radio" name="devoured" value="1" checked> Yes, I've eaten this one..
+    <div class="col-md-4"></div>
+    <h4 class="otherTxt col-md-5">Add a Burger</h4><br>
+    </div>
+    
+    <div class="form-group row">
     <input type="radio" name="devoured" value="0"> Not yet!
+    <div class="col-md-5"></div>
+    <input class="form-control saveForm col-md-5" type="text" id="bu" name="name" placeholder="Name...">
+    <button class="btn-md saveBtn col-md-1" id="bu" type="submit">Save</button>
+  </div>
   </div>
 
   

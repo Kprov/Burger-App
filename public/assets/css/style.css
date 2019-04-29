@@ -50,9 +50,13 @@ li {
     margin-bottom: 10px;
 }
 
-.btn-primary {
-    background-color: lightgrey;
+.saveBtn {
     margin-left:10px;
+    background-color:black;
+    border: solid;
+    border-color:grey;
+    color: white;
+    
     
 }
 
