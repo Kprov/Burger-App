@@ -31,8 +31,8 @@ html, body {
     color:white;
 }
 
-#search {
-    width: 500px;
+.saveForm {
+    
 }
 
 svg {
@@ -45,7 +45,7 @@ li {
     margin-bottom: 10px;
 }
 
-#save {
+.saveBtn {
     background-color:grey;
     border: solid;
     border-color: darkgrey;
