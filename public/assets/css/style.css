@@ -1,0 +1,21 @@
+.title {
+    font-family: 'Robot', sans-serif;
+    font-size: 6em;
+    font-weight: lighter;
+    margin-top: 50px;
+    
+}
+
+.subText {
+    margin-left:80px;
+    font-weight: lighter;
+}
+
+.bodyText{
+    font-family:'Nunto', sans-serif;
+    font-weight:lighter;
+}
+
+.inputBox {
+    width: 400px;
+}
