@@ -13,16 +13,24 @@ html, body {
     font-weight: bolder;
     margin-top: 15px;
     margin-left:50px;
-    color:white;
+    color:black;
     
+}
+
+header {
+    background:white;
+    border-bottom:solid;
 }
 
 
 
 .subText {
     margin-left:70px;
-    font-weight: bold;
-    color: white;
+    font-weight: thin;
+    color: black;
+    font-family: "Robito", sans-serif;
+    border-bottom: solid;
+    
 }
 
 .bodyText{
